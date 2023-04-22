@@ -7,34 +7,38 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
+        name : "IIT Hyderabad",
+        position : "Bachelor of Technology",
+        time:"2014 - 2018",
+        img_url : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682098602/rok9nkwnuukawj3hmyzu.png",
+        stars : 0,
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        name : "Sbv Solutions",
+        position : "Software Engineer",
+        time:"2018 - 2020",
+        img_url : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682098960/sbv_b3zjup.png",
         stars : 4,
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
+        name : "Lets Transport",
+        position : "Software Developer Engineer",
+        img_url : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682098861/LetsTransport-to-bring-1000-EVs-on-its-platform-by-next-year_f7mmqr.jpg",
+        stars : 4,
+        time:"2020 - 2022",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        name : "DeepIQ",
+        position : "Senior Software Engineer",
+        img_url : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682098808/a6gqyg5pzlzngaqohk2g.jpg",
         stars : 5,
+        time:"2022 - present",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
@@ -81,10 +85,10 @@ const Clients = () => {
         <ClientSlider item={item} key={i}/>
     ))
   return (
-    <Container id='client'>
+    <Container id='timeline'>
         <Slide direction="left">
-            <span className="green">testimonials</span>
-            <h1>what clients say</h1>
+            <span className="green">Timeline</span>
+            <h1>Work Experience</h1>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>

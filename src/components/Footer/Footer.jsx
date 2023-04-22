@@ -3,10 +3,12 @@ import styled from "styled-components";
 import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
-import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
-import { BsFacebook, BsSlack } from "react-icons/bs";
+import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp, AiOutlineInstagram } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import { FaWhatsapp } from "react-icons/fa";
+import emailjs from 'emailjs-com';
 
 const Footer = () => {
   const scrollUp = () => {
@@ -15,6 +17,15 @@ const Footer = () => {
       behavior: "smooth",
     });
   };
+  const handleOnSubmit=(e)=>{
+      e.preventDefault();
+      emailjs.sendForm('service_49qq5nc', 'template_senv8mq', e.target, 'wl6_v9miCbQIHOs_H')
+        .then((result) => {
+          alert("Thank you. I will get back to you as soon as possible.") //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
   return (
     <Container id="footer">
       <Profile>
@@ -26,7 +37,7 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
+            <p>Hebbal Kempapura , Bengaluru (Karnataka) , India , 560024,</p>
           </Slide>
         </div>
         <div className="links">
@@ -38,7 +49,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">+47 333 78 901</a>
+              <a href="tel:+917004418068">+91 7004418068</a>
             </Slide>
           </div>
           <div>
@@ -48,7 +59,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">miladamiri@gmail.com</a>
+              <a href="mailto:akhileshk.iith@gmail.com">akhileshk.iith@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -59,29 +70,36 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://github.com/Akhiiii"  target="_blank">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/akhilesh-kumar-a18721b3/"  target="_blank">
                   <AiFillLinkedin />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.facebook.com/akhileshverma23/"  target="_blank">
                   <BsFacebook />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
-                  <BsSlack />
+              <a href="https://wa.me/7004418068"  target="_blank">
+                  <FaWhatsapp />
+                </a>
+              </span>
+            </Zoom>
+            <Zoom>
+              <span>
+              <a href="https://www.instagram.com/iitian.akhilesh/"  target="_blank">
+                  <AiOutlineInstagram />
                 </a>
               </span>
             </Zoom>
@@ -95,26 +113,26 @@ const Footer = () => {
       </Profile>
       <Form>
         <Slide direction="right">
-          <form>
+          <form onSubmit={handleOnSubmit}>
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..." />
+              <input type="text" name="from_name" placeholder="Fullname..." />
             </div>
             <div className="email">
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Email..." />
+              <input type="email" placeholder="Email..." name="reply_to" />
             </div>
             <div className="message">
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+              <textarea cols="30" rows="10" placeholder="Message..."  name="message" ></textarea>
             </div>
-            <button>Submit</button>
+            <button type='submit'>Submit</button>
           </form>
         </Slide>
       </Form>

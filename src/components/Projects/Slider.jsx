@@ -6,24 +6,29 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682145126/imw_ugn1sw.png",
+        disc : "Progressive web application that allows users to check the latest news and create a local news based on their current location/category.",
+        link: "https://politikos-mob-dev.highgear.io/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682156366/lts_fqf3re.png",
+        disc : "Mobile app is for Vehicle Owners, Drivers and Vendors working in Logistics who want to attach their mini truck, trucks to Letstransport.",
+        link: "https://play.google.com/store/apps/details?id=in.letstransport.supply&hl=en&utm_source=website&utm_campaign=for_drivers_page_banner&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682156493/datastudio_yztxju.png",
+        disc : "Web based saas platform offer the only self-service application for end to end {Data + AI} OPs for the industrial world",
+        link: "https://github.com/Akhiiii"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682156806/taptap_xnu2m3.png",
+        disc : "Mobile app for contactless payment system for wristband. manage cards/transaction  at your fingertips (iOS & Android)",
+        link: "https://github.com/Akhiiii"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/dnovddpqv/image/upload/v1682159548/ss_ftifeh.png",
+        disc : "Android App Saving Circle based on chit fund savings scheme in India.",
+        link: "https://github.com/Akhiiii"
     }
 ];
 

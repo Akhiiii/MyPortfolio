@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { GiEarthAmerica } from "react-icons/gi";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 
 const ProfComponent = () => {
@@ -13,32 +13,42 @@ const ProfComponent = () => {
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Milad Amiri</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
+          <h1 className="green">Akhilesh Kumar</h1>
+          <h3>I Develop Attractive, UI and Web / Mobile Applications</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+           I'm a skilled Fronted software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, MongoDB and Express.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
           </p>
-          <button>Let's talk</button>
+          <a href="https://drive.google.com/file/d/17eeGIjRAt0uTR0HA0IsJ7qSIFZ22MvUN/view?usp=sharing"  target="_blank">
+            <button>Resume</button>
+          </a>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/akhilesh-kumar-a18721b3/"  target="_blank">
+                  <FaLinkedinIn />
+                </a>
+              </span>
+              <span>
+                <a href="https://wa.me/7004418068"  target="_blank">
+                  <FaWhatsapp />
+                </a>
+              </span>
+              <span>
+                <a href="https://www.instagram.com/iitian.akhilesh/"  target="_blank">
                   <AiOutlineInstagram />
                 </a>
               </span>
               <span>
+                <a href="https://www.facebook.com/akhileshverma23/"  target="_blank">
+                  <FaFacebook />
+                </a>
+              </span>  
+              <span>
                 <a href="/">
                   <GiEarthAmerica />
                 </a>
-              </span>
-              <span>
-                <a href="/">
-                  <FaLinkedinIn />
-                </a>
-              </span>
+              </span>            
             </div>
           </Social>
         </Texts>
@@ -46,7 +56,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
+            src="https://res.cloudinary.com/dnovddpqv/image/upload/v1682093775/wgs5inollnzd7rpoeu8w.jpg"
             alt="profile"
           />
         </Profile>

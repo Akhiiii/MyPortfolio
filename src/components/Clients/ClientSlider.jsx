@@ -1,27 +1,27 @@
 import React from 'react'
 import styled from 'styled-components'
-import {IoIosQuote} from "react-icons/io";
-import {AiOutlineStar} from "react-icons/ai";
+import { FaUniversity } from 'react-icons/fa';
+import { MdWork } from 'react-icons/md';
 
 const ClientSlider = (props) => {
-    const {name, position, img_url, stars, disc} = props.item;
+    const {name, position, img_url, stars,time} = props.item;
   return (
     <Container>
         <Header>
-            <span className='quote'><IoIosQuote/></span>
+            <span className='quote'>{stars===0?<FaUniversity/>:<MdWork/>}</span>
             <div>
-                {Array(stars).fill().map((_, i) => (
-                    <span className='star' key={i}>
-                        <AiOutlineStar/>
+                {/* {Array(stars).fill().map((_, i) => ( */}
+                    <span className='star'>
+                        {time}
                     </span>
-                ))}
+                {/* ))} */}
             </div>
         </Header>
         <Body>
-            {disc}
+        <img src={img_url} alt={name} width={200} />
         </Body>
         <Footer>
-            <img src={img_url} alt={name} />
+            {/* <img src={img_url} alt={name} /> */}
             <div className="details">
                 <h1>{name}</h1>
                 <p>{position}</p>
