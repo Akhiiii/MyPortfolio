@@ -1,5 +1,5 @@
 import React from "react";
-import { MdCode, MdDeveloperMode } from "react-icons/md";
+import { MdCode, MdDeveloperMode, MdMovie } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
 import styled from "styled-components";
 import Card from "./Card";
@@ -61,6 +61,14 @@ const Services = () => {
           <Card
             Icon={FaNetworkWired}
             title={"Backend Development"}
+            // disc={`Lorem ipsum dolor sit amet consectetur 
+            //     adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+          />
+        </Slide>
+        <Slide direction="right">
+          <Card
+            Icon={MdMovie}
+            title={"OTT App Development"}
             // disc={`Lorem ipsum dolor sit amet consectetur 
             //     adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
           />

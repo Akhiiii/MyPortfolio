@@ -82,13 +82,13 @@ const Footer = () => {
                 </a>
               </span>
             </Zoom>
-            <Zoom>
+            {/* <Zoom>
               <span>
                 <a href="https://www.facebook.com/akhileshverma23/"  target="_blank">
                   <BsFacebook />
                 </a>
               </span>
-            </Zoom>
+            </Zoom> */}
             <Zoom>
               <span>
               <a href="https://wa.me/7004418068"  target="_blank">
@@ -96,13 +96,13 @@ const Footer = () => {
                 </a>
               </span>
             </Zoom>
-            <Zoom>
+            {/* <Zoom>
               <span>
               <a href="https://www.instagram.com/iitian.akhilesh/"  target="_blank">
                   <AiOutlineInstagram />
                 </a>
               </span>
-            </Zoom>
+            </Zoom> */}
           </div>
         </div>
         <Fade>

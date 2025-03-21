@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
 import { GiEarthAmerica } from "react-icons/gi";
 import { FaFacebook, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
@@ -14,9 +14,9 @@ const ProfComponent = () => {
             Hello <span className="green">I'am</span>
           </h4>
           <h1 className="green">Akhilesh Kumar</h1>
-          <h3>I Develop Attractive, UI and Web / Mobile Applications</h3>
+          <h3>I Develop Attractive,Web and Mobile Applications UI</h3>
           <p>
-           I'm a skilled Fronted software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, MongoDB and Express.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+          As a frontend software developer, I specialize in building intuitive, high-performance user interfaces using TypeScript, JavaScript, and React. My expertise lies in crafting seamless and responsive web and mobile experiences, with a strong focus on performance, scalability, and modern UI/UX principles. While I have a foundational understanding of backend technologies like Node.js and MongoDB, my passion is front-end development—transforming ideas into clean, efficient, and visually engaging applications. I thrive in collaborative environments and continuously adapt to emerging technologies to deliver impactful solutions.
           </p>
           <a href="https://drive.google.com/file/d/17eeGIjRAt0uTR0HA0IsJ7qSIFZ22MvUN/view?usp=sharing"  target="_blank">
             <button>Resume</button>
@@ -30,11 +30,16 @@ const ProfComponent = () => {
                 </a>
               </span>
               <span>
+                <a href="https://github.com/Akhiiii"  target="_blank">
+                  <AiFillGithub />
+                </a>
+              </span>
+              <span>
                 <a href="https://wa.me/7004418068"  target="_blank">
                   <FaWhatsapp />
                 </a>
               </span>
-              <span>
+              {/* <span>
                 <a href="https://www.instagram.com/iitian.akhilesh/"  target="_blank">
                   <AiOutlineInstagram />
                 </a>
@@ -48,7 +53,7 @@ const ProfComponent = () => {
                 <a href="/">
                   <GiEarthAmerica />
                 </a>
-              </span>            
+              </span>             */}
             </div>
           </Social>
         </Texts>
