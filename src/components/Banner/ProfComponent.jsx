@@ -18,7 +18,7 @@ const ProfComponent = () => {
           <p>
           As a frontend software developer, I specialize in building intuitive, high-performance user interfaces using TypeScript, JavaScript, and React. My expertise lies in crafting seamless and responsive web and mobile experiences, with a strong focus on performance, scalability, and modern UI/UX principles. While I have a foundational understanding of backend technologies like Node.js and MongoDB, my passion is front-end development—transforming ideas into clean, efficient, and visually engaging applications. I thrive in collaborative environments and continuously adapt to emerging technologies to deliver impactful solutions.
           </p>
-          <a href="https://drive.google.com/file/d/17eeGIjRAt0uTR0HA0IsJ7qSIFZ22MvUN/view?usp=sharing"  target="_blank">
+          <a href="https://drive.google.com/file/d/1sqKyv6Pw2y21C7CX7myUbMhQV1F9pqgg/view?usp=sharing"  target="_blank">
             <button>Resume</button>
           </a>
           <Social>

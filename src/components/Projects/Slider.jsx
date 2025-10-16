@@ -22,13 +22,19 @@ let data = [
   },
   {
     img: "https://res.cloudinary.com/dnovddpqv/image/upload/v1682156493/datastudio_yztxju.png",
-    disc: "A web-based SaaS platform providing the only self-service solution for end-to-end Data + AI operations tailored for the industrial sector.",
-    link: "https://3535353535.azuredeepiq.com/workflow"
+    disc: "A web-based SaaS platform providing a comprehensive, self-service solution for end-to-end Data and AI operations, purpose-built for the industrial sector. The AI-powered, no-code platform enables efficient Industrial DataOps.",
+    // link: "https://3535353535.azuredeepiq.com/workflow"
+    link:"https://deepiq.com/",
   },
   {
     img: "https://res.cloudinary.com/dnovddpqv/image/upload/v1739805647/r9uft7fphmrslrymsody.png",
     disc: "The Drilling App is a specialized solution for well drilling operations, enabling users to compare two wells, analyze drilling performance, and visualize key metrics",
     link: "https://drillingappreact.3535353535.azuredeepiq.com/"
+  },
+   {
+    img: "https://res.cloudinary.com/dnovddpqv/image/upload/v1760631887/Screenshot_2025-10-16_at_9.47.17_PM_p1imay.png",
+    disc: "Drilluminati is an intelligent Microsoft Word add-in that enables users to chat directly within their Word documents to plan and design wells efficiently.",
+    link: "https://word.cloud.microsoft/"
   },
   {
     img: "https://res.cloudinary.com/dnovddpqv/image/upload/v1682156806/taptap_xnu2m3.png",
